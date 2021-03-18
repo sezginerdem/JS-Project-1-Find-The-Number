@@ -1,0 +1,33 @@
+body {
+    background-image: url(./images/background.png);
+    background-size: 100vw 150vh;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    margin: 3rem auto 2rem;
+}
+
+div {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+
+#message {
+    text-align: center;
+    font-size: x-large;
+}
+
+#testNum {
+    text-align: center;
+    font-size: large;
+}

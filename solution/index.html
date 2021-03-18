@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Find The Number Game</title>
+    </head>
+    
+    <body>
+        <h1>Find The Number (between 0 and 100):</h1>
+        <div>        
+            <input autofocus type="text" name="number" id="number" max="100" min="0">
+            <button id="btn">CHECK</button>
+        </div>
+        <p id="message"></p>
+        <p id="testNum"></p>
+        <audio id='error-1' src="./audios/No.mp3" ></audio>
+        <audio id='error-2' src="./audios/NoNoNo.mp3"></audio>
+        <audio id='error-3' src="./audios/Pat.mp3"></audio>
+        <audio id='error-4' src="./audios/Sad_Trombone.mp3"></audio>
+        <audio id="success" src="./audios/Ta Da.mp3"></audio>
+        <script src="./index.js"></script>
+    </body>
+    
+</html>
